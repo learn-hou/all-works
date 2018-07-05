@@ -1,0 +1,378 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    box-sizing:border-box;
+}
+a{
+    text-decoration:none;
+}
+header{
+    width:100%;
+    height:3.3rem;
+    background: #fed405;
+    position:fixed;
+    top:0;
+    left:0;
+    padding:0 0.24rem;
+    z-index: 20;
+
+}
+header .title{
+    width:100%;
+    height:0.88rem;
+    /*background:blue;*/
+    position:relative;
+}
+header .title .left i{
+    position:absolute;
+    top:0.12rem;
+    left:-0.08rem;
+    font-size:0.55rem;
+    color:#fff;
+}
+header .title .right{
+    width:0.54rem;
+    height:0.3rem;
+    background:#fff;
+    float:right;
+    /*border:0.01rem solid #fed405;*/
+    margin-top:0.22rem;
+    margin-right:0.12rem;
+    border-radius:1.1rem;
+}
+header .title .right i{
+    position:absolute;
+    top:0.2rem;
+    right:0.26rem;
+    font-size:0.29rem;
+    /*background:#fed405;*/
+    color:#fed405;
+    /*border:0.01rem solid #fed405;*/
+}
+header .intruction{
+    width:100%;
+    height:2.28rem;
+    /*background:red;*/
+}
+header .intruction  .left{
+    width:2.64rem;
+    height:100%;
+    /*background:green;*/
+    float:left;
+}
+header .intruction  .right{
+    width:4.38rem;
+    height:100%;
+    /*background:pink;*/
+    float:left;
+    position:relative;
+
+}
+header .intruction  .left img{
+    width:1.68rem;
+    display:block;
+    height:1.68rem;
+    margin-top:0.25rem;
+    /*margin-right:0.13rem;*/
+    margin-left:0.83rem;
+}
+header .intruction  .right h3{
+    font-size:0.27rem;
+    color:#fff;
+}
+header .intruction  .right  img{
+    width:1.32rem;
+    display:block;
+    height:0.08rem;
+    margin-top:0.11rem;
+}
+header .intruction  .right h4{
+    font-size:0.19rem;
+    color:#fff;
+    font-weight:normal;
+    margin-left:0.4rem;
+    margin-top:0.14rem;
+}
+header .intruction  .right i{
+    font-size:0.31rem;
+    color:#fff;
+    position:absolute;
+    top:0.68rem;
+    left:0;
+
+}
+header .intruction  .right .img2{
+    width:1.69rem;
+    height:0.22rem;
+}
+header .intruction  .right  ul{
+    width:3.73rem;
+    height:0.61rem;
+    /*background:gray;*/
+    margin-top:0.15rem;
+    font-size:0.14rem;
+    color:#fff;
+    display:flex;
+    justify-content:space-between;
+    position:relative;
+}
+header .intruction  .right  ul li{
+
+}
+header .intruction  .right  ul li:nth-child(2) {
+    padding-top:0.1rem;
+    /*padding-left:0.2rem;*/
+
+}
+header .intruction  .right  ul li:nth-child(3) {
+    padding-top:0.1rem;
+    /*padding-left:0.2rem;*/
+
+}
+header .intruction  .right  ul  .squ{
+     border-radius:0.2rem;
+     padding-top:0.1rem;
+    padding-left:0.2rem;
+    width:1.1rem;
+    height:0.61rem;
+    /*background:red;*/
+    border:1px solid #fff;
+
+}
+header .intruction  .right  ul li .sm{
+    width:0.09rem;
+    height:0.09rem;
+    background:#fff;
+    position:absolute;
+    top:0.25rem;
+    left:1.16rem;
+    border-radius:50%;
+}
+header .intruction  .right  ul li .sml{
+    width:0.09rem;
+    height:0.09rem;
+    background:#fff;
+    position:absolute;
+    top:0.25rem;
+    right:1.16rem;
+    border-radius:50%;
+}
+.down{
+    width:100%;
+    height:0.6rem;
+    background:#09f9c3;
+    margin-top:3.3rem;
+    text-align:center;
+    line-height: 0.6rem;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 12;
+}
+.down h3{
+    font-size:0.18rem;
+    color:#fff;
+}
+/*顶部结束*/
+main{
+    width:100%;
+    overflow:hidden;
+    padding:0 0.24rem;
+    /*background:red;*/
+    margin-bottom:0.98rem;
+    margin-top:3.9rem;
+}
+main .menu-list {
+    width:100%;
+    height:0.63rem;
+    border-bottom:0.01rem solid #ded6d6;
+    display:flex;
+    justify-content: space-around;
+    line-height: 0.63rem;
+    position:fixed;
+    left:0.24rem;
+    /*top:3.96rem;*/
+    z-index: 7;
+    background:#fff;
+
+}
+main .menu-list  .a1{
+   width:0.69rem;
+    height:100%;
+
+}
+main .menu-list   a h3{
+    font-size:0.29rem;
+    color:#606060;
+}
+main .content{
+    width:100%;
+}
+main .content .left ul{
+    width:2.04rem;
+    float:left;
+    margin-top:0.82rem;
+    position:fixed;
+    top:3.68rem;
+    left:0.24rem;
+    height:7.86rem;
+    overflow:scroll;
+}
+main .content .left ul li{
+     width:2.04rem;
+    height:0.97rem;
+    background:#eeeeee;
+    font-size:0.28rem;
+    text-align: center ;
+    line-height: 0.97rem;
+}
+main .content .left ul li:nth-child(4) {
+    background:#fed405;
+}
+main  .content  .right{
+    width:4.8rem;
+    margin-top:0.82rem;
+    float:right;
+}
+.right  .menu{
+    width:4.7rem;
+    height:1.88rem;
+    float:right;
+    margin-top:0.18rem;
+    box-shadow:0 0 0.1rem 0.01rem rgba(0,0,0,0.1);
+    position:relative ;
+
+}
+.menu  .men-left{
+    width:1.69rem;
+    height:100%;
+    float:left;
+}
+.menu  .men-right{
+    width:2.97rem;
+    height:100%;
+    /*background:red;*/
+    float:right;
+    position:relative;
+}
+.menu  .men-left  img{
+      width:1.38rem;
+    height:1.24rem;
+    padding-top:0.3rem;
+    padding-left:0.31rem;
+}
+.menu  .men-right  h3{
+    font-size:0.33rem;
+    color:#737373;
+}
+.menu  .men-right  img{
+    width:1.36rem;
+    height:0.15rem;
+    display:block;
+}
+.menu  .men-right .squ{
+    background:#fed405;
+    border-radius: 50%;
+    width:0.16rem;
+    height:0.16rem;
+    margin:0.2rem 0.02rem;
+    border:0.03rem solid #faea9c;
+    float:left;
+}
+.menu  .men-right .text{
+    font-size:0.16rem;
+    color:#a3a3a3;
+    margin-top:0.1rem;
+    float:left;
+}
+
+.menu  .men-right .price img{
+    width:0.21rem;
+    height:0.25rem;
+    display:block;
+    position:absolute;
+    bottom:0.25rem;
+    left:0.03rem;
+
+}
+.menu  .men-right .price span{
+    font-size:0.19rem;
+    color:#fed405;
+    display:block;
+    position:absolute;
+    bottom:0.2rem;
+    left:0.33rem;
+}
+.menu   .sale{
+    width:0.4rem;
+    height:0.4rem;
+    position:absolute;
+    top:0.05rem;
+    right:0.28rem;
+
+
+}
+/*底部*/
+footer{
+    width:100%;
+    height:0.98rem;
+    background:#fff;
+    position:fixed;
+    bottom:0;
+    left:0;
+    box-shadow:0 0 0.1rem 0.01rem rgba(0,0,0,0.1);
+    line-height: 0.39rem;
+}
+footer  .shop{
+   width:0.66rem;
+    height:0.66rem;
+    background:#3e3b3b;
+    margin:0.1rem  0  0  0.75rem;
+    border-radius: 50%;
+    border:0.07rem solid #e5cf65;
+    float:left;
+}
+footer .shop img{
+    width:70%;
+    height:70%;
+    display: block;
+    margin-left:0.05rem;
+    margin-top:0.05rem;
+
+}
+footer p{
+    font-size:0.22rem;
+    float:left;
+    margin-left:0.1rem;
+    color:#fed405;
+}
+footer .account {
+    width:1.4rem;
+    height:0.61rem;
+    background:#000000;
+    float:right;
+    margin-right:0.24rem;
+    margin-top:0.1rem;
+    border-radius:0.3rem;
+}
+footer .account  .small{
+     width:0.16rem;
+     height:0.16rem;
+     background:#09f9c3;
+     margin-left:0.17rem;
+    margin-top:0.23rem;
+    border-radius: 50%;
+    float:left;
+}
+footer .account  h3{
+    font-size:0.23rem;
+    float:right;
+    margin-top:0.08rem;
+    margin-right:0.3rem;
+    color:#fff;
+}
+
+
+
+

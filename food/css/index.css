@@ -1,0 +1,328 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none ;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/*顶部导航*/
+header{
+    width:7.5rem;
+    height:0.88rem;
+    background: #fed405;
+    padding-left:0.24rem;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:5;
+
+}
+header .header-left {
+     width:1.6rem;
+    height:100%;
+    font-size:0.25rem;
+    color:#fff;
+    text-align: center ;
+    line-height: 0.88rem;
+    float:left;
+    position:relative;
+}
+header .header-left  img{
+      display:block;
+      width:0.26rem;
+      height:0.33rem;
+      position:absolute;
+      top:0.28rem;
+       left:0.04rem;
+}
+header .header-right{
+    width:5.43rem;
+    height:100%;
+    float:left;
+    display:flex;
+    align-items: center;
+    padding-left:0.47rem;
+}
+header .header-right  a img{
+     display:block;
+     width:0.42rem;
+     height:0.39rem;
+    position:absolute;
+    top:0.22rem;
+    right:0.84rem;
+}
+header .header-right  input{
+    display:block;
+    background: #fff;
+    width:4.55rem;
+    height:0.51rem;
+    border-radius:0.7rem;
+    border:none;
+    padding-left:0.8rem;
+    color:#d6d6d6;
+    position:relative;
+}
+/*导航结束*/
+.banner{
+    width:7.5rem;
+    height:1.85rem;
+    margin-top:0.88rem;
+
+}
+.banner img{
+    width:7.5rem;
+    height:1.85rem;
+}
+/*banner结束*/
+/*导航图片开始*/
+.nav{
+    width:7.03rem;
+    height:3.36rem;
+    /*background:red;*/
+    margin-left:0.24rem;
+    margin-top:0.74rem;
+}
+ul{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.nav ul li{
+    width:1.11rem;
+    height:1.67rem;
+    /*background:blue;*/
+    margin-right:0.6rem;
+
+}
+.nav ul li span{
+    font-size:0.26rem;
+    text-align:center;
+    display:block;
+    color:#5b5b5b;
+    margin-top:-0.15rem;
+
+}
+.nav ul li img{
+    width:100%;
+    height:1.04rem;
+}
+.nav ul li:nth-child(4){
+    margin-right:0;
+}
+/*banner结束*/
+.content{
+    width:7.03rem;
+    height:3.18rem;
+    /*background:red;*/
+    margin-left:0.24rem;
+    margin-top:0.04rem;
+}
+.content ul{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding-top:0.08rem;
+
+
+}
+.content ul  li{
+     width:3.35rem;
+    height:1.52rem;
+    /*background:blue;*/
+    border:0.01rem solid #dad7d7;
+    position:relative;
+}
+/*.content ul  li:nth-child(2){*/
+      /*width:*/
+/*}*/
+.content ul  li .left{
+    width:2.01rem;
+    height:100%;
+    /*background:pink;*/
+    float:left;
+
+}
+.content ul  li .right{
+    width:1.3rem;
+    height:100%;
+    /*background:orange;*/
+    float:right;
+}
+.content ul  li .right img{
+    width:1.2rem;
+    height:1rem;
+    margin-top:0.4rem;
+}
+.content ul  li .left img{
+    width:0.54rem;
+    height:0.23rem;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.content ul  li .left  .first {
+    width:1.7rem;
+    height:0.47rem;
+    /*background:black;*/
+    margin-top:0.29rem;
+    font-size:0.24rem;
+    margin-left:0.13rem;
+    border-radius:0.23rem;
+    border:0.01rem solid #fee150;
+    text-align:center;
+    line-height:0.47rem;
+    color:#7d7d7d;
+}
+.content ul  li .left  p{
+    font-size:0.17rem;
+    text-align:center;
+    margin-top:0.11rem;
+    color:#7d7d7d;
+}
+/*中间结束*/
+/*喜欢开始*/
+.like{
+    width:7.03rem;
+    /*height:7.06rem;*/
+    /*background:red;*/
+   margin-left:0.24rem;
+    padding-left:0.24rem;
+}
+.like .title {
+    width: 100%;
+    height: 0.99rem;
+    /*background: blue;*/
+    padding-top: 0.32rem;
+}
+
+.like .title  img{
+    width:2.87rem;
+    height:0.31rem;
+    display:block;
+    margin:0 auto;
+
+}
+.like .content1{
+    width:6.6rem;
+    height:100%;
+    /*background:pink;*/
+}
+.like .content1  .list{
+    width:100%;
+    height:2.14rem;
+    /*background:orange;*/
+    /*border:0.01rem solid black;*/
+    margin-bottom:0.31rem;
+    box-shadow:0 0 0.1rem 0.01rem rgba(0,0,0,0.1);
+}
+.like .content1  .list .left{
+    width:2.32rem;
+    height:100%;
+    /*background:blue;*/
+    float:left;
+}
+.like .content1  .list .left  img{
+    width:80%;
+    height:80%;
+    margin-top:0.2rem;
+}
+.like .content1  .list .right{
+    width:4.2rem;
+    height:100%;
+    /*background:rebeccapurple;*/
+    float:right;
+    position:relative;
+}
+
+.like .content1  .list .right h3{
+    font-size:0.26rem;
+    color:#606060;
+    margin-top:0.28rem;
+}
+.like .content1  .list .right img{
+    width:1.32rem;
+    height:0.22rem;
+    position:absolute;
+    top:0.38rem;
+    right:0;
+}
+.like .content1  .list .right  a{
+    font-size:0.23rem;
+    display:block;
+    color:#767676;
+    margin-top:0.36rem;
+    float:left;
+}
+.like .content1  .list .right  span{
+    font-size:0.14rem;
+    color:#fb0808;
+    display:block;
+    float:right;
+    margin-top:0.36rem;
+
+}
+.like .content1  .list .right .down{
+    width:100%;
+    height:0.3rem;
+    /*background:gold;*/
+    margin-top:0.82rem;
+    display:flex;
+    justify-content:flex-start;
+}
+.like .content1  .list .right .down span{
+    width:1.2rem;
+    height:100%;
+    border-right:0.01rem solid #a4a4a4;
+    /*background:green;*/
+    display:block;
+    margin-top:0;
+    font-size:0.14rem;
+    color:#a4a4a4;
+}
+.like .content1  .list .right .down span:last-child {
+    border-right:none;
+    text-align:right;
+}
+.like .content1  .list .right .down span:nth-child(3){
+    border-right:none;
+}
+/*喜欢结束*/
+footer{
+    width:100%;
+    height:0.98rem;
+    background:#fff;
+    position:fixed;
+    left:0;
+    bottom:0;
+    padding-top:0.1rem;
+
+}
+
+footer ul li{
+    width:0.67rem;
+    height:0.78rem;
+    /*background:blue;*/
+    text-align: center ;
+
+}
+footer ul li img{
+    width:100%;
+    height:0.45rem;
+    display:block;
+}
+footer ul li h3{
+    font-size:0.17rem;
+    font-weight:normal;
+    color:#a4a4a4;
+
+}
+footer ul li:first-child {
+    color:#fed404;
+}
+
+
+

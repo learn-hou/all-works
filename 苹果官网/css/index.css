@@ -1,0 +1,459 @@
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+}
+/*导航开始*/
+header{
+   width:100%;
+    height:44px;
+    background:rgba(0,0,0,0.6);
+    padding:0 185px;
+    position:fixed;
+    top:0;
+    left:0;
+}
+header ul{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+header ul li.menu{
+    display:none;
+}
+header ul li{
+    color:#fff;
+    line-height:44px;
+    font-size:12px;
+}
+header ul li:hover{
+    color:#9e9a9a;
+}
+/*iphonex*/
+.banner{
+    width:100%;
+    height:580px;
+    margin-top:44px;
+    background: #fafafa   url("../img/iphone_x_large.jpg ")  no-repeat  center bottom/909px 194px;
+    border-bottom:12px solid #fff;
+}
+.banner  .content  {
+      text-align: center ;
+      padding-top:98px;
+      overflow: hidden;
+}
+.banner  .content h1{
+    font-size:40px;
+}
+.banner  .content h3{
+    margin-top:10px;
+    font-size:21px;
+    font-weight: normal;
+    margin-bottom:10px;
+}
+.banner  .content a,.s1{
+    font-size:16px;
+    color:#0070c9;
+    margin-top:25px;
+    font-weight:bold;
+
+}
+.banner  .content a:hover{
+    text-decoration: underline ;
+}
+.banner  .content .s1{
+    margin-right:32px;
+}
+/*iph8*/
+.iph8{
+    width:100%;
+    height:580px;
+    background:#f9f0eb  url("../img/iphone_8_large.jpg ")  no-repeat center bottom/537px 378px;
+    border-bottom:12px solid #fff;
+}
+.iph8 .content{
+    text-align:center;
+    padding-top:51px;
+    overflow: hidden;
+}
+.iph8   .content h1{
+    font-size:40px;
+}
+.iph8  .content h3{
+    margin-top:10px;
+    font-size:21px;
+    font-weight: normal;
+    margin-bottom:10px;
+}
+.iph8  .content a,.s1{
+    font-size:16px;
+    color:#0070c9;
+    margin-top:25px;
+    font-weight:bold;
+
+}
+.iph8  .content a:hover{
+    text-decoration: underline ;
+}
+.iph8  .content .s1{
+    margin-right:32px;
+}
+/*ipad*/
+.ipa{
+    width:100%;
+    height:580px;
+    background:#f5f5f5 url("../img/ipad_large.jpg ") no-repeat center bottom/930px 355px ;
+
+}
+.ipa .content{
+    text-align:center;
+    padding-top:51px;
+    overflow: hidden;
+}
+.ipa  .content h1{
+    font-size:40px;
+}
+.ipa  .content h3{
+    margin-top:10px;
+    font-size:21px;
+    font-weight: normal;
+    margin-bottom:10px;
+}
+.ipa .content a,.s1{
+    font-size:16px;
+    color:#0070c9;
+    margin-top:25px;
+    font-weight:bold;
+
+}
+.ipa  .content a:hover{
+    text-decoration: underline ;
+}
+.ipa  .content .s1{
+    margin-right:32px;
+}
+/*中间方格*/
+.section{
+    width:100%;
+    height:580px;
+    background:blue;
+}
+.section .iwatch {
+    width:50%;
+    height:100%;
+    float:left;
+    border:12px solid #fff;
+    border-bottom-width:0;
+    background:#eeeeee url("../img/watch_series_3_large.jpg ") no-repeat center bottom/447px 395px ;
+}
+.section .iwatch  .content{
+    text-align:center;
+    padding-top:33px;
+    overflow: hidden;
+}
+.section .iwatch  .content h4{
+    font-size:17px;
+}
+.section .iwatch  .content h6{
+    color:#d34848;
+    font-size:9px;
+}
+.section .iwatch  .content h5{
+    margin-top:14px;
+    font-size:15px;
+}
+.section .iwatch  .content a,.s1{
+    font-size:13px;
+    color:#0070c9;
+    margin-top:25px;
+    font-weight:bold;
+
+}
+.section  .content a:hover{
+    text-decoration: underline ;
+}
+.section  .content .s1{
+    margin-right:20px;
+}
+.section .game{
+    width:50%;
+    height:100%;
+    background:url("../img/how_to_shoot_large.jpg ") no-repeat center bottom/1262px 580px ;
+    float:left;
+    border:12px solid #fff;
+    border-left-width:0;
+    border-bottom-width:0;
+}
+.section .game .content{
+    text-align:center;
+    padding-top:60px;
+    overflow: hidden;
+}
+.section .game .content h4{
+    font-size:30px;
+    color:#fff;
+}
+.section .game .content h5{
+    font-size:15px;
+    color:#fff;
+    margin-top:10px;
+}
+
+/*音乐*/
+.section .music{
+    width:50%;
+    height:100%;
+    float:left;
+    border:12px solid #fff;
+    border-bottom-width:0;
+    background:url("../img/music_three_months_large.jpg") no-repeat  center bottom/1262px 580px ;
+}
+/*人*/
+.section .people{
+    width:50%;
+    height:100%;
+    background:url("../img/behind_the_mac_large.jpg  ") no-repeat center bottom/1262px 580px ;
+    float:left;
+    border:12px solid #fff;
+    border-left-width:0;
+    border-bottom-width:0;
+}
+/*air*/
+.section .airpod{
+    width:50%;
+    height:100%;
+    float:left;
+    border:12px solid #fff;
+    /*border-bottom-width:0;*/
+    background:#fafafa url("../img/airpods_large.jpg ") no-repeat  center  bottom/385px 304px ;
+
+}
+/*home*/
+.section .homepod {
+    width:50%;
+    height:100%;
+    background:#fafafa url("../img/homepod_large.jpg  ") no-repeat center bottom/382px 396px ;
+    float:left;
+    border:12px solid #fff;
+    border-left-width:0;
+    /*border-bottom-width:0;*/
+
+}
+/*底部*/
+footer{
+    width:100%;
+    height:580px;
+    background:#f2f2f2;
+    padding: 43px  192px  0  ;
+}
+footer .down{
+    width:100%;
+    height:70%;
+    /*background:red;*/
+}
+footer .down  dl{
+    width:20%;
+    /*background:blue;*/
+    float:left;
+    overflow: hidden;
+}
+footer .down  dl  .emue {
+    margin-top:30px;
+    color:#333;
+    font-size:9px;
+}
+footer .down  dt{
+    font-size:9px;
+    color:#333;
+    font-weight:600;
+
+}
+footer .down  dd a{
+    font-size:9px;
+    color:#646464;
+}
+footer .down  dd {
+    margin-top:15px;
+}
+footer .down  dl dt span{
+    color:#333;
+    font-size:8px;
+    display:none;
+}
+footer .fo{
+    width:100%;
+    overflow: hidden;
+    color:#888888;
+    position:relative;
+    /*background:red;*/
+}
+footer .fo .first-text  a{
+    color:#0070c9;
+}
+footer .fo .first-text{
+    border-bottom:1px solid  #d6d6d6;
+    padding-bottom:25px;
+
+}
+footer .fo .first-text  a:hover{
+     text-decoration: underline;
+}
+footer .second-text {
+    padding-top:12px;
+    float:left;
+}
+footer .third-text{
+    float:right;
+    padding-top:12px;
+}
+footer .fo  .third-text i{
+    color:red;
+}
+footer .third-text a{
+    color:#888888;
+}
+footer .fourth{
+    margin-top:50px;
+}
+footer .fourth a{
+    color:#636359;
+    margin-right:10px;
+}
+/*中屏*/
+
+@media screen and (max-width:768px){
+   header{
+       padding:0 15px;
+   }
+    .banner {
+        background:  #fafafa   url("../img/iphone_x_medium.jpg ") no-repeat center bottom/736px 336px;
+    }
+    .iph8{
+        background:#f9f0eb  url("../img/iphone_8_medium.jpg ") no-repeat  center bottom/527px 373px ;
+    }
+    .ipa{
+        background:#f5f5f5 url("../img/ipad_medium.jpg ") no-repeat center bottom/650px 325px ;
+    }
+    .section{
+        height:490px;
+    }
+    .section .iwatch{
+        background:#eeeeee url("../img/watch_series_3_medium.jpg ") no-repeat center bottom/345px 328px ;
+
+    }
+    .section .game{
+        background:url("../img/how_to_shoot_medium.jpg ") no-repeat center bottom/516px 490px;
+    }
+    .section .music{
+        background:url("../img/music_three_months_medium.jpg ") no-repeat center bottom/516px 490px ;
+    }
+    .section .people{
+        background:url("../img/behind_the_mac_medium.jpg ") no-repeat center bottom/516px 490px ;
+    }
+    .section .airpod{
+        background:#fafafa url("../img/airpods_medium.jpg  ") no-repeat  center bottom/269px 212px ;
+    }
+    .section .homepod{
+        background:#fafafa url("../img/homepod_medium.jpg  ") no-repeat  center bottom/317px 331px ;
+    }
+    footer{
+        padding:30px 20px 0;
+    }
+
+}
+/*最小屏幕*/
+@media screen and (max-width:735px){
+   header ul li.menu{
+       display:block;
+   }
+    header ul li.text{
+        display:none;
+    }
+    .banner{
+        background:#fafafa url("../img/iphone_x_small.jpg ") no-repeat  center bottom/320px 353px;
+    }
+    .iph8 {
+        background:#f9f0eb  url("../img/iphone_8_small.jpg ") no-repeat  center bottom/320px 460px ;
+    }
+    .ipa{
+        background:#f5f5f5 url("../img/ipad_small.jpg ") no-repeat center bottom/228px 340px ;
+    }
+    .section {
+        height:500px;
+    }
+    .section .iwatch{
+        background:#eeeeee url("../img/watch_series_3_small.jpg  ") no-repeat center bottom/321px 346px ;
+        width:100%;
+        border-left-width:0;
+        border-right-width:0;
+
+    }
+    .section .game{
+        background:url("../img/how_to_shoot_small.jpg  ") no-repeat center bottom/736px 548px;
+        width:100%;
+        border-left-width:0;
+        border-right-width:0;
+
+    }
+    .section .music{
+        background:url("../img/music_three_months_small.jpg  ") no-repeat center bottom/736px 548px ;
+        width:100%;
+        border-left-width:0;
+        border-right-width:0;
+    }
+    .section .people{
+        background:url("../img/behind_the_mac_small.jpg  ") no-repeat center bottom/736px 548px ;
+        width:100%;
+        border-left-width:0;
+        border-right-width:0;
+    }
+    .section .airpod{
+        background:#fafafa url("../img/airpods_small.jpg   ") no-repeat  center bottom/244px 193px ;
+        width:100%;
+        border-left-width:0;
+        border-right-width:0;
+        border-bottom-width:0;
+    }
+    .section .homepod{
+        background:#fafafa url("../img/homepod_medium.jpg  ") no-repeat  center bottom/331px 346px ;
+        width:100%;
+        border-left-width:0;
+        border-right-width:0;
+    }
+    footer{
+        padding:40px 15px 0;
+        background:red;
+
+    }
+    footer .down dl{
+        width:100%;
+    }
+    footer .down dl dt{
+        border-bottom:1px solid #d6d6d6;
+        padding-bottom:11px;
+    }
+    footer .down dl dd{
+        display:none;
+    }
+    footer .down  dl dt span{
+        display:inline;
+        float:right;
+    }
+    footer .down  dl  .emue{
+        font-size:11px;
+    }
+    footer .fo .first-text{
+        border-bottom-width:0;
+    }
+    footer .third-text{
+        position:absolute;
+        top:16px;
+        left:1px;
+    }
+}

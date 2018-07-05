@@ -1,0 +1,263 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    height:60px;
+    background:#212A3F;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 5;
+}
+header .container .main{
+    width:100%;
+    height:100%;
+}
+header .container .main  .title{
+    color:#fa3447;
+    font-size:30px;
+    font-weight:100;
+    line-height:60px;
+    float:left;
+}
+header .container .main  .nav{
+    float:right;
+    line-height:60px;
+}
+header .container .main  .nav a.list{
+        font-size:28px;
+        color:#fff;
+
+}
+header .container .main  .nav a.link{
+    display:none;
+    font-size:12px;
+    color:#fff;
+    padding-right:28px;
+}
+header .container .main  .nav a.link:hover{
+    text-decoration: none;
+}
+header .container .main  .nav a.link1{
+    color:#434F5B;
+}
+header .container .main  .nav a.link1:hover{
+    color:#fff;
+}
+/*banner*/
+.banner{
+    background:url("../img/bg.png ") no-repeat  center/cover ;
+    background-attachment:fixed;
+    margin-top:60px;
+    width:100%;
+    height:669px;
+    padding-top:121px;
+}
+.banner .content{
+    background:rgba(33, 42, 63, 0.5);
+    padding:23px 39px;
+}
+.banner .content  h3{
+    text-align:center;
+    color:#fff;
+    font-size:35px;
+}
+.banner .content .a1{
+      border-top:10px  double red;
+    border-bottom:10px  double red;
+      height:96px;
+    text-align: center ;
+
+}
+.banner .content  .a1  h2{
+    color:#fff;
+}
+.banner  .content  h4{
+    padding:21px  56px 0;
+    color:#fff;
+    font-size:20px;
+
+}
+.banner  .content   a{
+    text-decoration: none;
+    line-height:4px;
+    font-size:18px;
+    background:rgba(255, 255, 255, 0.1);
+    border:1px solid #fff;
+    padding:21px 22px;
+    margin:20px 70px ;
+    display:block;
+    text-align: center ;
+}
+/*welcome*/
+.welcome{
+   width:100%;
+    /*height:226px;*/
+    background:#fff;
+}
+.con{
+    padding:40px 0;
+    text-align: center ;
+}
+.con  .title  h2{
+      font-size:42px;
+      color:#8AB839;
+}
+.desc  p{
+    width:75%;
+     font-size:18px;
+    color:#2E2E2E;
+     margin:0 auto;
+}
+/*feature*/
+.feature{
+    background:#8ab839;
+    padding:60px 0;
+    width:100%;
+}
+.row{
+    margin-right:-15px;
+    margin-left:-15px;
+}
+.row .title  h2{
+   text-align:center;
+    font-weight: 600;
+    font-size:30px;
+}
+.row  .icon-box{
+    margin:30px 0;
+}
+.icon-pic{
+    text-align: center ;
+}
+.icon-text{
+     text-align:center;
+}
+.icon-text h4{
+    color:#2e2e2e;
+    font-size:25px;
+}
+.icon-text p{
+    font-size:18px;
+    color:#2E2E2E;
+    font-weight: 400;
+}
+/*prot*/
+.work{
+    padding:0 15px;
+    margin:0 auto;
+    width:100%;
+}
+.work-list {
+    padding:60px 0;
+}
+.work-list h2{
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-align: center ;
+    margin:30px 0;
+
+}
+.work-list .work-space {
+    margin:20px 0;
+    position:relative;
+
+}
+a .work-img {
+    width:100%;
+    text-align: center ;
+}
+a .work-img img{
+    width:100%;
+    height:200px;
+}
+.work-list .work-space  a  h3{
+    padding:15px 0;
+    font-size:15px;
+    width:100%;
+    font-weight: 600;
+    background:#8ab839;
+    color:#fff;
+    text-align: center ;
+    margin:0;
+}
+a .image-hover  i {
+       text-align: center ;
+       line-height: 200px;
+       font-size: 30px;
+        color:red;
+       /*display:none;*/
+}
+/*a .image-hover  {*/
+      /*height:200px;*/
+      /*width:92%;*/
+      /*background:red;*/
+    /*margin-left:14px;*/
+      /*position:absolute;*/
+      /*top:0;*/
+      /*left:0;*/
+    /*background:rgba(255, 255, 255, 0.5);*/
+    /*transition: all  0.5s;*/
+/*}*/
+a .image-hover:hover{
+    height:200px;
+
+}
+a .image-hover:hover i{
+    display:inline;
+}
+/*foot*/
+footer{
+    width:100%;
+    background:rgba(33, 42, 63, 1);
+    padding:50px 0;
+    margin:0 auto;
+
+}
+.container  .col-xs-12 p{
+    font-size:20px;
+    font-weight: 300;
+    line-height: 30px;
+    color:#fff;
+}
+.btn{
+    background:#8ab839;
+    border:none;
+    color:#fff;
+    padding:13px 0;
+    font-size:17px;
+    width:100%;
+}
+
+
+
+
+
+
+
+
+/*小屏幕*/
+@media screen and (min-width: 768px){
+    header .container .main  .nav a.list{
+        display:none;
+    }
+    header .container .main  .nav a.link{
+        display:inline;
+    }
+    .icon-text{
+        text-align: left ;
+    }
+
+}
+/*中屏幕*/
+@media screen and (min-width: 992px){
+
+}
+/*大屏幕*/
+@media screen and (min-width: 1200px){
+
+}
