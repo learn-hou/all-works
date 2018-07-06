@@ -1,0 +1,13 @@
+*{
+    padding:0;
+    margin:0;
+    list-style: none ;
+    background:#9e9a9a;
+}
+.box{
+    width:200px;
+    height:336px;
+    border:1px solid black;
+    margin-right:10px;
+    margin-bottom:10px;
+}
